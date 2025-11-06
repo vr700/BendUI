@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root { --bg:#eeeeee; --fg:#000000; }
+  .dark { --bg:#000000; --fg:#ffffff; }
+  html, body { background-color: var(--bg); color: var(--fg); }
+  body { @apply min-h-screen antialiased; }
+}
+
+@layer components {
+  .themed-icon { filter: invert(1); }
+  .dark .themed-icon { filter: invert(0); }
+}
+
+.container { @apply mx-auto px-6 max-w-6xl; }
