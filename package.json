@@ -1,24 +1,44 @@
 {
-    "name": "@bend-ui/landing",
-    "private": true,
-    "version": "0.0.0",
-    "type": "module",
-    "dependencies": {
-        "@bend-ui/vue": "workspace:*",
-        "vue": "^3.4.0",
-        "vue-router": "^4.4.5"
-    },
-    "devDependencies": {
-        "@vitejs/plugin-vue": "^5.1.4",
-        "autoprefixer": "^10.4.20",
-        "postcss": "^8.4.47",
-        "tailwindcss": "^3.4.13",
-        "typescript": "^5.6.3",
-        "vite": "^5.4.9"
-    },
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build",
-        "preview": "vite preview --open"
-    }
+  "name": "bend-ui",
+  "private": true,
+  "version": "0.0.1",
+  "description": "",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "echo \"(root) nothing to build\"",
+    "dev": "echo \"use package-level dev scripts\""
+  },
+  "keywords": [
+    "vue",
+    "bend-ui",
+    "bend",
+    "ui",
+    "components",
+    "black hole",
+    "bend UI",
+    "UI",
+    "Bend",
+    "Vue Bend",
+    "Vue UI",
+    "vue components",
+    "vue gallery",
+    "components gallery"
+  ],
+  "author": "Mariano Oblitas",
+  "license": "ISC",
+  "packageManager": "pnpm@10.20.0",
+  "dependencies": {
+    "tailwind-merge": "^2.6.0",
+    "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "rimraf": "^6.1.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.12",
+    "vue-tsc": "^3.1.3"
+  }
 }

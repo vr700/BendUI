@@ -7,7 +7,7 @@
 
     <nav class="flex items-center gap-3">
       <a
-        href="https://github.com/vr700/Bend.UI"
+        href="https://github.com/vr700/BendUI"
         target="_blank"
         rel="noopener"
         class="icon-btn text-neutral-700 hover:text-neutral-900 dark:text-neutral-300 dark:hover:text-white"

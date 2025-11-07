@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+pnpm-lock.yaml
+
+# builds
+dist/
+.temp/
+.histoire/
+.vitepress/
+.vite/
+coverage/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/

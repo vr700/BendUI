@@ -1,0 +1,25 @@
+{
+    "name": "@bend-ui/vue",
+    "version": "0.0.1",
+    "license": "MIT",
+    "type": "module",
+    "files": ["dist", "tailwind.preset.cjs"],
+    "sideEffects": false,
+    "peerDependencies": {
+        "vue": "^3.4.0",
+        "tailwindcss": "^4.0.0"
+    },
+    "dependencies": {
+        "tailwind-merge": "^2.5.2"
+    },
+    "exports": {
+        ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
+        "./tailwind.preset.cjs": "./tailwind.preset.cjs"
+    },
+    "scripts": {
+        "build": "vite build && pnpm run types",
+        "types": "vue-tsc -p tsconfig.build.json",
+        "typecheck": "vue-tsc --noEmit -p tsconfig.json",
+        "clean": "rimraf dist"
+    }
+}

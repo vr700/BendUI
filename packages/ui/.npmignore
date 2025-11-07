@@ -1,0 +1,9 @@
+src/
+histoire/
+stories/
+tests/
+.vscode/
+.vite/
+.histoire/
+tsconfig.json
+vite.config.ts

@@ -43,7 +43,7 @@ export const components: CatalogItem[] = [
     id: 'login-card',
     name: 'Login Card',
     type: 'Forms',
-    description: 'Auth card with inputs, labels, actions and animated border.',
+    description: 'Auth card with inputs, labels, actions and animated border. ',
     previewComponent: BuLoginCard,
     usage:
 `<script setup lang="ts">
