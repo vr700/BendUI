@@ -29,4 +29,6 @@ Please read the [Contributing Guide](/CONTRIBUTING.md).
 
 Licensed under the [MIT license](/LICENSE.md).
 
+<br /> 
+
 >⚡ Powered by: Vue 3 + TypeScript + Tailwind CSS  .
